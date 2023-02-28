@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>akash fitness</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset  */
+    body {
+        font-family: 'Oswald', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/jpg.jpg');
+    }
+
+    .left {
+        /* border: 2px solid brown; */
+        display: inline-block;
+        position: absolute;
+        left: 80px;
+        top: 21px;
+    }
+
+    .left img {
+        width: 90px;
+        filter: invert(0%);
+    }
+
+    .left div {
+        line-height: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mid {
+        /* border: 2px solid rgb(33, 21, 138); */
+        display: block;
+        width: 33%;
+        margin: 50px auto;
+    }
+
+    .right {
+        /* border: 2px solid rgb(43, 114, 79); */
+        position: absolute;
+        right: 30px;
+        top: 21px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: rgb(12, 11, 11);
+        text-decoration: none;
+        padding: 10px 5px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(186, 62, 62);
+    }
+
+    .btn {
+        font-family: 'Oswald', sans-serif;
+        margin: 0px;
+        background-color: aliceblue;
+        color: black;
+        padding: 6px 10px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: brown;
+    }
+
+    .container {
+        /* border: 2px solid green; */
+        margin: 40px 30px;
+        padding: 60px;
+        width: 33%;
+        border-radius: 30px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 30px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 300px;
+        margin: 50px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/Gym logo.png" alt="">
+            <div>Akash Calisthenics</div>
+        </div>
+
+        <!--Mid box for navbar  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1>Join the best Calisthenics GAYA Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">
+                submit
+            </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
